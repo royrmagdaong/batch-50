@@ -2,6 +2,8 @@
     display: flex;
     /* flex-direction: row; default - inline */
     /* flex-direction: column - full width; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap; */
 }
 
 .red{
@@ -12,4 +14,8 @@
 }
 .blue{
     background-color: blue;
+}
+.flex-item {
+    width: 400px;
+    height: 50px;
 }
