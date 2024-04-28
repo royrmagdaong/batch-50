@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    /* flex-direction: row; default - inline */
+    /* flex-direction: column - full width; */
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
