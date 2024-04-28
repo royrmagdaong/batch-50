@@ -4,8 +4,17 @@
     /* flex-direction: column - full width; */
     /* flex-wrap: wrap; */
     /* flex-wrap: nowrap; */
+    /* justify-content: flex-start; default */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
 }
-
+.container {
+    background-color: rgb(207, 201, 201);
+    padding: 20px;
+}
 .red{
     background-color: red;
 }
@@ -15,7 +24,13 @@
 .blue{
     background-color: blue;
 }
+.cyan{
+    background-color: cyan;
+}
+.magenta{
+    background-color: magenta;
+}
 .flex-item {
-    width: 400px;
+    /* width: 400px; */
     height: 50px;
 }
